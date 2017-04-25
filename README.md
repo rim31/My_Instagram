@@ -16,7 +16,7 @@ html, css, php, mysql, js, jquery ONLY
 (bootstrap, and other techno forbidden)
 
 
-![Preview](https://raw.githubusercontent.com/rim31/My_Instagram/4bacd9d8f37c867e09017e3d81a138829ee1e657/images/Capture%20d%E2%80%99e%CC%81cran%202017-03-01%20a%CC%80%2000.25.17.png)
+![Preview](https://github.com/rim31/my_instagram/blob/master/images/screeshot1.png)
 
 
-![alt tag](https://github.com/rim31/My_Instagram/blob/4bacd9d8f37c867e09017e3d81a138829ee1e657/images/Capture%20d%E2%80%99e%CC%81cran%202017-03-01%20a%CC%80%2000.23.46.png?raw=true)
+![alt tag](https://github.com/rim31/my_instagram/blob/master/images/screeshot2.png)
