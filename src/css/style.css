@@ -1,0 +1,276 @@
+/*FONT RULES*/
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+*{
+  font-family: 'Indie Flower', cursive;
+}
+
+/*GENERAL RULES*/
+
+a{
+  list-style-type: none;
+  outline: none;
+  text-decoration: none;
+}
+
+a:visited{
+  color: inherit;
+}
+
+/*HEADER RULES*/
+
+.flexHeader {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;;;
+  /*font-size: 1em;*/
+  font-size: 1em;
+}
+
+.flexMain {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*class regrouping the nav items*/
+.caseHeader {
+  text-align: center;
+  padding: 10px 10px;
+  background-color: grey;
+  align-self: stretch;
+  flex-grow: 2;
+  color: white;
+  font-size: 30px;
+  transition: 0.6s;
+}
+
+.caseHeader:hover{
+  transition: 0.6s;
+  -webkit-transform: scale(1.2, 1.2);
+  -moz-transform: scale(1.2, 1.2);
+  -ms-transform: scale(1.2, 1.2);
+  -o-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
+}
+
+.navItem1{
+  background-color: #1CC9A7;
+}
+
+.navItem2{
+  background-color: #1ABC9C;
+}
+
+.navItem3{
+  background-color: #16A287;
+}
+
+.navItem4{
+  background-color: #117C67;
+}
+
+.navItem5{
+  background-color: #083C32;
+}
+
+.navItem6{
+  background-color: #04332E;
+}
+
+.alertMessage {
+  display: inline-table;
+  background-color: red;
+}
+
+/*HEADER RULES*/
+.title{
+  text-align: center;
+  font-size: 3em;
+}
+
+.title:hover{
+  transition: 1s;
+  -webkit-transform: scale(2.0, 2.0);
+  -moz-transform: scale(2.0, 2.0);
+  -ms-transform: scale(2.0, 2.0);
+  -o-transform: scale(2.0, 2.0);
+  transform: scale(2.0, 2.0);
+}
+
+/*BODY RULES*/
+
+body {
+  background-image: url("../images/lama.png");
+  /*gradient background*/
+
+  /*for debug*/
+  /*background-color: hotpink;*/
+  margin: 0;
+}
+
+
+footer{
+  background-color: #04332E;
+  /*margin-top: auto;*/
+  width: 100%;
+  height: 2%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  color: white;
+  font-size: 0.5em;
+  text-align: center;
+  z-index: 1;
+}
+
+.leftCol {
+  width: 80%;
+  min-width: 80%;
+  max-width: 80%;
+}
+.rightCol {
+  width: 20%;
+  min-width: 20%;
+  max-width: 20%;
+  background-color: #0FC9B6;
+  opacity: 0.9;
+  color: white;
+  font-size: 1.2em;
+  z-index: -3;
+}
+
+.pRightCol{
+  text-align: center;
+}
+
+/*================== canvas ====================*/
+
+.canvas {
+  position: absolute;
+  width: inherit;
+  height: auto;
+  left: auto;
+}
+
+#filtre1{
+  border: 1px solid #0FC9B6;
+}
+
+.tailleCam {
+  width: 640px;
+  height: 480px;
+  /*width: 320px;
+  height: 240px;*/
+}
+/*================== mini img ====================*/
+.miniFiltre {
+  width: 50px;
+  height: 50px;
+}
+
+.flexFiltre {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;;
+  width: 100%;
+}
+
+.flexFiltre div:hover{
+  cursor: pointer;
+  transition: 0.6s;
+  -webkit-transform: scale(2.0, 2.0);
+  -moz-transform: scale(2.0, 2.0);
+  -ms-transform: scale(2.0, 2.0);
+  -o-transform: scale(2.0, 2.0);
+  transform: scale(2.0, 2.0);
+}
+
+/*ARTICLE RULES*/
+.instructionsDiv{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+article{
+  text-align: center;
+}
+
+#for
+{
+  width:auto;;
+  height:2vw;
+  font-size: 2vw;
+}
+#submit {
+  background-color: #2E9AFE;
+  border: 3px solid black;
+  border-radius: 5px;
+  width: auto;;
+  height: 10%;
+  color: black;
+  font-size: 1vw;
+}
+#submit:hover {
+  background-color: black;
+  color: white;
+  border: 3px solid white;
+}
+#submit:active {
+  background-color: grey;
+  color: white;
+  border: 3px solid white;
+}
+
+#snap {
+  transition: 0.4s;
+  position: relative;
+  left: 45%;
+  margin: 10px 0;
+  padding: 20px;
+  border: 1px solid #0FC9B6;
+  background-color: transparent;
+  color: #0FC9B6;
+  font-size: 2em;
+}
+#snap:hover {
+  transition: 0.4s;
+  background-color: #0FC9B6;
+  color: white;
+}
+#snap:active {
+
+}
+
+/*====================images gallery============*/
+
+.imageMaconnerie {
+      display: flex;
+      justify-content: space-around;;
+      flex-direction: column;
+      padding: 20px;
+}
+
+.caseImage {
+  margin: 10px 10px 10px 10px;
+  border: solid 1px #0FC9B6;
+}
+
+.imageTuile {
+  height: auto;
+  width: 82%;
+  margin: 5px;
+  padding: 1em;
+}
+
+.miniImage{
+  width: 10%;
+  height: auto;
+}
+
+/*==============upload page image =================*/
+.bouttonCache {
+  display: none;
+}
+
+/*KEYFRAMES*/
